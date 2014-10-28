@@ -1,0 +1,18 @@
+﻿{
+    "content_scripts": [ {
+        "js":               [ "extensionO.js" ],
+    "matches": ["http://boostadopt.com/*","http://boostadopt.local/*"],
+        "run_at": "document_end"
+    }  ],
+ "web_accessible_resources": ["script.js","manifest.json"
+],
+    "description":  "Booster pour AdopteUnMec.com",
+    "name":         "ExtBoostAdopt",
+    "version":      "1.0.0",
+    "author": "BoostAdopt Inc.",
+    "manifest_version": 2,
+    "permissions": [
+    "http://www.adopteunmec.com/*", "http://www.adoptaguy.de/*", "http://www.adottaunragazzo.it/*", "http://www.adoptauntio.es/*", "tabs","clipboardWrite",
+  "clipboardRead"
+  ]
+}
